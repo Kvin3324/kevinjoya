@@ -261,7 +261,7 @@ class CVTerminal {
   }
 }
 
-// Initialize the terminal 
+// Initialize the terminal
 window.onload = () => {
 
   const addonsConfig = [
@@ -272,7 +272,7 @@ window.onload = () => {
 
   const terminalSettings = {
     "fontSize": 25,
-    "fontFamily": "'VT323', monospace", // Make sure 'VT323' is loaded as shown earlier
+    "fontFamily": "'VT323', monospace",
     "cursorStyle": "block",
     "cursorBlink": true,
     "theme": {
@@ -362,7 +362,6 @@ window.onload = () => {
     },
     "prompt": "root > "
   };
-
 
   const terminalConfigurations = {
     terminal: terminalSettings,
