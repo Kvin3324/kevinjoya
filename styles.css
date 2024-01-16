@@ -1,0 +1,74 @@
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+#terminal pre {
+  color: #00ff00; /* Or the hex code of the color you want */
+  font-family: 'VT323', monospace;
+  margin: 0; /* To reset any default margin */
+  padding: 0; /* To align with the terminal's content padding */
+  white-space: pre-wrap; /* To ensure long lines wrap and preserve spaces and line breaks */
+  word-break: keep-all; /* To prevent breaking the ASCII art */
+}
+
+#terminal h1 {
+  color: #00ff00; /* Terminal-like green color */
+  font-family: 'VT323', monospace; /* Monospace font for terminal look */
+  font-size: 1.2em; /* Larger text for the heading */
+  margin-bottom: 0.5em; /* Space below the heading */
+}
+
+#terminal h2 {
+  color: #00ff00; /* Terminal-like green color */
+  font-family: 'VT323', monospace; /* Monospace font for terminal look */
+  font-size: 0.5em; /* Larger text for the heading */
+  margin-bottom: 0.5em; /* Space below the heading */
+}
+
+#terminal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%; /* Adjust based on your design */
+  height: 90%; /* Adjust based on your design */
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+}
+
+@font-face {
+  font-family: 'VT323';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/vt323@latest/latin-400-normal.woff2) format('woff2'),
+       url(https://cdn.jsdelivr.net/fontsource/fonts/vt323@latest/latin-400-normal.woff) format('woff');
+}
+
+/* Apply VT323 font to terminal text */
+#terminal {
+  font-family: 'VT323', monospace;
+  font-size: 1em; /* Adjust as necessary */
+}
+
+/* Mobile styles for the terminal container */
+@media screen and (max-width: 480px) {
+  #terminal {
+    width: 100%; /* Use full width of the screen */
+    height: auto; /* Allow terminal to grow as needed */
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* Mobile styles for ASCII art inside the terminal */
+@media screen and (max-width: 480px) {
+  #terminal pre {
+    font-size: 0.5em; /* Decrease font size for ASCII art to fit on mobile screens */
+    line-height: 1; /* Adjust line height to maintain art structure */
+    /* Other adjustments as needed */
+  }
+}
