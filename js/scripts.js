@@ -303,7 +303,7 @@ window.onload = () => {
       "about": [
         "Name: Kévin Joya",
         "Job: Développeur front-end",
-        "En tant que développeur front, j'ai commencé avec les basiques comme le HTML5 et CSS5 mais ayant une forte apétence pour le front, je me suis spécialisé sur le Javascript Vanilla puis j'ai évolué sur le framework React.js. Ensuite de cela, j'ai reprit mes études, une formation de développeur web, qui était en alternance et durant laquelle j'ai apprit le framework Vue.js avec lequel je joue encore aujourd'hui, accompagné de Typescript. ",
+        "En tant que développeur front, j'ai commencé avec les basiques comme le HTML5 et CSS5 mais ayant une forte appétence pour le front, je me suis spécialisé sur le Javascript Vanilla puis j'ai évolué sur le framework React.js. Ensuite de cela, j'ai reprit mes études, une formation de développeur web, qui était en alternance et durant laquelle j'ai apprit le framework Vue.js avec lequel je joue encore aujourd'hui, accompagné de Typescript. ",
       ],
       "experience": [
         "Développeur front-end | Ecoco2 (Jan 2022 - Aujourd'hui)",
